@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfilo</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/b3a020ff59.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <video id="responsive-video" autoplay muted loop playsinline>
+            <source src="/images/Itachi Uchiha   ... reels  nature  itachi  instagram  trendingreels  india  editing  itachiedits.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+        <div class="container">
+            <nav>
+                <img src="/images/Gemini_Generated_Image_5tnact5tnact5tna.jpg" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Portfolio</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <i class="fas fa-xmark "onclick="closemenu()"></i>
+                </ul>
+                
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Web Developer</p>
+                <h1>Hi,I am Sat<span>ish</span> From Vizag</h1>
+            </div>
+        </div>
+    </div>
+<!-----about----->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="/images/nat1.jpg" alt="">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-tittle">About me</h1>
+                <p>Hi, I’m Satish, a B.Tech graduate from Andhra University with a CGPA of 7.34.<br>I’m passionate about technology and skilled in HTML, CSS, JavaScript, and Node.js.<br> Beyond coding, I enjoy exploring new places and experimenting in the kitchen with different recipes.<br> Whether I’m solving technical problems or crafting a new dish, I thrive on creativity and continuous learning.</p>
+                <div class="tab-tittles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links "onclick="opentab('experience')">Experience</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>Html&Css</span><br>WEb Doveloper</li>
+                        <li><span>JavaScript</span><br>Intractive Web Applications</li>
+                        <li><span>Ui/Ux</span><br>Building Web Interfaces</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="experience">
+                    <ul>
+                        <li><span>College Internship</span><br>WEb Doveloper</li>
+                        <li><span>Mini Projects</span><br>Intractive Web Applications</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>Secondary Education</span><br>From 2018 - 2019<br>M P & E V English Medium School(CBSE)<br>Percentage:65.5</li>
+                        <li><span>Board Of Intermediate</span><br>From 2019 to 2021<br>Tirumula Junior College<br>Percentage:89.6</li>
+                        <li><span>B-tech</span><br>From 2021 - 2025<br>Andhra University<br>CGP:7.34</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-----services----->
+
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Web Development</h2>
+                <p>the process of building, programming, and maintaining websites and web applications.
+                use various programming languages, like HTML, CSS, and JavaScript, to develop websites and web applications.</p>
+                <a href="#">Learn More</a>
+            </div>
+            <div>
+                <i class="fa-brands fa-app-store-ios"></i>
+                <h2>App Development</h2>
+                <p>creating software applications for mobile devices, such as smartphones, tablets, and digital assistants.
+                The goal of app development is to create software that meets business needs and improves customer experiences. </p>
+                <a href="#">Learn More</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-crop"></i>
+                <h2>UI/UX Design</h2>
+                <p>UX design is all about identifying and solving user problems.
+                UI design is all about creating intuitive, aesthetically-pleasing,
+                interactive interfaces. UX design usually comes first in the product development process</p>
+                <a href="#">Learn More</a>
+            </div>
+            </div>
+    </div>
+</div>
+<!------portfolio---->
+
+<div id="portfolio">
+    <div class="container">
+        <h1 class="subtitle">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="/images/nat2.jpg">
+                <div class="layer">
+                    <h3>Imstagram Media App</h3>
+                    <p>This app connets you to the talented people around the world.
+                    Download it from store.</p>
+                    <a href="#"><i class="fa-solid fa-link"></i></a>
+                </div>
+
+            </div>
+            <div class="work">
+                <img src="/images/nat3.jpg">
+                <div class="layer">
+                    <h3>LinkedIn App</h3>
+                    <p>This app connets you to the talented people around the world.
+                    Download it from store.</p>
+                    <a href="#"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="/images/Naruto Lockscreen Wallpaper.jpg">
+                <div class="layer">
+                    <h3>FacrBook App</h3>
+                    <p>This app connets you to the talented people around the world.
+                    Download it from store.</p>
+                    <a href="#"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See More</a>
+    </div>
+</div>
+
+<!------contact----->
+
+<div id="contact">
+    <div class="contaier">
+        <div class="row">
+            <div class="contact-lefft" style="flex-basis: 30%;">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-envelope"></i> contact@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i> 1234567890</p>
+                <div class="social-icons">
+                    <a href=""><i class="fa-brands fa-square-facebook"></i></a>
+                    <a href=""><i class="fa-brands fa-square-instagram"></i></a>
+                    <a href=""><i class="fa-brands fa-square-twitter"></i></a>
+                    <a href=""><i class="fa fa-linkedin"></i></a>
+                </div>
+                <a href="images/my-cv.pro.pdf" download class="btn btn-2">Download Cv</a>
+            </div>
+            <div class="contact-right">
+                <form>
+                    <input type="text" name="Name" placeholder="Your name" required>
+                    <input type="email" name="Email" placeholder="Your Emaial" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message" ></textarea>
+                    <button type="submit" class="btn btn-2">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+<script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+       
+    }
+</script>
+<script>
+    var sidemenu = document.getElementById("sidemenu");
+    function openmenu(){
+        sidemenu.style.right= "0";
+    }
+    function closemenu(){
+        sidemenu.style.right= "-200px";
+    }
+</script>
+    
+</body>
+</html>
